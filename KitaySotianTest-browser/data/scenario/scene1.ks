@@ -1,0 +1,16 @@
+[_tb_system_call storage=system/_scene1.ks]
+
+[cm  ]
+[bg  time="500"  method="crossfade"  storage="1508295438_1506789315126.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="y2matemp3.online-320kbps-zut6sBEh.mp3"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+Добро пожаловать в тест на социальный кредит [p]
+Великий Китай!!!![p]
+Отвечать на вопросы или попасть в санаторий[p]
+Партия выдать этому катаец вопросы![p]
+[_tb_end_text]
+
+[wait  time="3000"  ]
+[tb_hide_message_window  ]
+[jump  storage="level1.ks"  target=""  ]
